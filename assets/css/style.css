@@ -1,8 +1,9 @@
 main{
     background-color: #565D93;
-    color: #ECE8EF
+    color: #ECE8EF;
+    padding: 10px;
 }
-nav {
+nav, .btn{
     background-color: #4d0066;
     color: #ECE8EF;
 }
