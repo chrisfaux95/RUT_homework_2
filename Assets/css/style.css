@@ -1,3 +1,9 @@
-.bg-main {
-    background-color: #6610F2;
+main {
+    background-color: #aa9baa;
+}
+nav {
+    background-color: #330044;
+}
+body {
+    background-color: #dfdfdf;
 }
