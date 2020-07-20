@@ -1,9 +1,14 @@
 main{
     background-color: #565D93;
+    color: #ECE8EF
 }
 nav {
     background-color: #4d0066;
+    color: #ECE8EF;
 }
-body, .card-body {
+body, .card {
     background-color: #ECE8EF;
+}
+.card{
+    color:#2E2E2E
 }
