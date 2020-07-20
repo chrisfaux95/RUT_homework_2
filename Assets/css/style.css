@@ -1,9 +1,9 @@
-main {
-    background-color: #aa9baa;
+main{
+    background-color: #7A7D7D;
 }
 nav {
-    background-color: #330044;
+    background-color: #4d0066;
 }
-body {
-    background-color: #dfdfdf;
+body, .card-body {
+    background-color: #ECE8EF;
 }
