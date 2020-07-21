@@ -1,5 +1,5 @@
 main{
-    background-color: #565D93;
+    background-color: #8d91b3;
     color: #ECE8EF;
     padding: 10px;
     
@@ -16,3 +16,11 @@ body, .card {
 .card{
     color:#2E2E2E
 }
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 168px) {
+
+  }
