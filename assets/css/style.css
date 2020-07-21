@@ -1,3 +1,18 @@
+html{
+    position:relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom:60px;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    margin-top: 3rem;
+}
+
 main{
     background-color: #8d91b3;
     color: #ECE8EF;
@@ -18,7 +33,7 @@ body, .card {
     color:#2E2E2E
 }
 
-h1, h2, nav, .navbar{
+h1, h2, nav, footer, .navbar{
     font-family: 'Oswald', sans-serif;
 }
 
