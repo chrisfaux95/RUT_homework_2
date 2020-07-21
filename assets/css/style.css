@@ -2,6 +2,8 @@ main{
     background-color: #8d91b3;
     color: #ECE8EF;
     padding: 10px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Slab', serif;
 }
 nav, .btn{
     background-color: #4d0066;
