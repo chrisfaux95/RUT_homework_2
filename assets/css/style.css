@@ -36,13 +36,3 @@ body, .card {
 h1, h2, nav, footer, .navbar{
     font-family: 'Oswald', sans-serif;
 }
-
-@media screen and (max-width: 768px) {
-    main {
-        width: 80%;
-    }
-    .card {
-        width:100%;
-        padding-bottom: 1rem;
-    }
-}
