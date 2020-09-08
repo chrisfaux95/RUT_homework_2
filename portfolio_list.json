@@ -7,7 +7,8 @@
             "Link": "https://kmvanneste.github.io/NASA-Now/"
         },
         "image": {
-            "src": "NASA_Now.png"
+            "src": "NASA_Now.png",
+            "type": "local"
         }
     },
     {
@@ -18,7 +19,8 @@
             "Link": "https://high-score-quiz-game.herokuapp.com/"
         },
         "image": {
-            "src": "triviatastic.png"
+            "src": "triviatastic.png",
+            "type": "local"
         }
     },
     {
@@ -29,7 +31,8 @@
             "Old Version": "https://github.com/chrisfaux95/Mirror-Rune-V2"
         },
         "image": {
-            "src": "runeListDiagram.png"
+            "src": "runeListDiagram.png",
+            "type": "local"
         }
     },
     {
@@ -40,7 +43,8 @@
             "Link": "https://chrisfaux95.github.io/password_generator/"
         },
         "image": {
-            "src": "password_generator_screenshot.png"
+            "src": "password_generator_screenshot.png",
+            "type": "local"
         }
     },
     {
@@ -51,7 +55,8 @@
             "Link": "https://chrisfaux95.github.io/day_planner/"
         },
         "image": {
-            "src": "day_planner_screenshot.png"
+            "src": "day_planner_screenshot.png",
+            "type": "local"
         }
     },
     {
@@ -61,7 +66,8 @@
             "Github": "https://github.com/chrisfaux95/readme_generator"
         },
         "image": {
-            "src":"readme_gen.png"
+            "src":"readme_gen.png",
+            "type": "local"
         }
     },
     {
@@ -71,7 +77,8 @@
             "Github": "https://github.com/chrisfaux95/employee_tracker"
         },
         "image": {
-            "src": "employee_db.png"
+            "src": "employee_db.png",
+            "type": "local"
         }
     },
     {
@@ -81,7 +88,8 @@
             "Github": "https://github.com/chrisfaux95/team_profile_generator"
         },
         "image": {
-            "src": "team_profile.png"
+            "src": "team_profile.png",
+            "type": "local"
         }
     },
     {
@@ -92,7 +100,8 @@
             "Live Version": "https://chrisfaux95.github.io/code_quiz/"
         },
         "image": {
-            "src": "code_quiz_screenshot.png"
+            "src": "code_quiz_screenshot.png",
+            "type": "local"
         }
     }
 ]
