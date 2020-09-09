@@ -19,9 +19,9 @@ function createCard(data) {
 
     let cardFooter = $("<div>").addClass("card-footer");
     data.links.forEach(e => {
-        let link = $("<a>").addClass("btn, btn-dark");
+        let link = $("<a>").addClass("btn btn-dark");
         link.text(e.name);
-        link.attr("src", e.src);
+        link.attr("href", e.src);
         cardFooter.append(link);
     });
 
@@ -30,3 +30,10 @@ function createCard(data) {
     portfolio.append(cardContainer);
 }
 
+function createPortfolio(portfolio_data) {
+    // LOOP THROUGH data
+    portfolio.empty();
+    portfolio_data.forEach(e => {
+        createCard(e);
+    });
+}

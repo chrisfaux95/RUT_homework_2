@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css"
+        integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <!-- GOOGLE FONTS -->
@@ -20,33 +21,34 @@
 
 <body>
     <nav class="mb-1
-                navbar
-                navbar-expand
-                navbar-dark
-                sticky-top">
+    navbar
+    navbar-expand
+    navbar-dark
+    bg-primary
+    sticky-top">
         <!-- Links -->
         <a class="navbar-brand 
-                  mb-1 h1" href="index.html">
+      mb-1 h1" href="index.html">
             Chris Faux
         </a>
         <ul class="navbar-nav
-                   navbar-right
-                   ml-md-auto">
+       navbar-right
+       ml-md-auto">
             <li class="nav-item mx-1">
                 <a class="nav-link btn
-                          btn-dark" href="index.html">
+              btn-dark" href="index.html">
                     About Me
                 </a>
             </li>
             <li class="nav-item mx-1">
                 <a class="nav-link btn
-                          btn-dark active" href="portfolio.html">
+              btn-dark" href="portfolio.html">
                     Portfolio
                 </a>
             </li>
             <li class="nav-item mx-1">
                 <a class="nav-link btn
-                          btn-dark" href="contact.html">
+              btn-dark" href="contact.html">
                     Contact Me
                 </a>
             </li>
@@ -65,89 +67,7 @@
             </div>
         </div>
         <div id="portfolio" class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="assets/images/this_website.png" alt="This Website" />
-                    <div class="card-body">
-                        <h5 class="card-title">This Website</h5>
-                        <p class="card-text">This website was built to practice using Bootstrap. It also doubles as a
-                            page to introduce myself, and show my portfolio.</p>
 
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/chrisfaux95/RUT_homework_2" class="btn btn-dark">
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="./assets/images/day_planner_screenshot.png"
-                        alt="Screenshot of Day Planner" />
-                    <div class="card-body">
-                        <h5 class="card-title">Day Planner</h5>
-                        <p class="card-text">A simple planner app in html that saves to storage</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://chrisfaux95.github.io/day_planner/" class="btn btn-dark">Link</a>
-                        <a href="https://github.com/chrisfaux95/day_planner" class="btn btn-dark">Github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="./assets/images/password_generator_screenshot.png"
-                        alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text">A password generator page using javascript</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://chrisfaux95.github.io/password_generator/" class="btn btn-dark">Link</a>
-                        <a href="https://github.com/chrisfaux95/password_generator" class="btn btn-dark">Github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="./assets/images/code_quiz_screenshot.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Coding Quiz</h5>
-                        <p class="card-text">A quick timed and scored quiz made using html and javascript. Also saves
-                            highscores</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://chrisfaux95.github.io/code_quiz/" class="btn btn-dark">Link</a>
-                        <a href="https://github.com/chrisfaux95/code_quiz" class="btn btn-dark">Github</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="https://via.placeholder.com/100x80.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Other Works</h5>
-                        <p class="card-text">Description of the displayed work.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-dark">Link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col py-1">
-                <div class="card h-100">
-                    <img class="card-img-top" src="https://via.placeholder.com/100x80.png" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Other Works</h5>
-                        <p class="card-text">Description of the displayed work.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-dark">Link</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
     <footer class="footer
@@ -160,9 +80,14 @@
         &copy;2020 - Chris Faux.
     </footer>
     <!-- SCRIPTS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/portfolio_list_faux_json.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+    <script>
+        createPortfolio(portfolioData);
+    </script>
 </body>
 
 </html>
