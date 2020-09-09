@@ -1,4 +1,4 @@
-[
+const portfolio = [
     {
         "name": "NASA Now",
         "description": "A site that displays a bunch of NASA pictures and information such as the Astronomy Picture of the Day, Images and Articles from the NASA database, Space Weather, and the latest pictures of Earth.",
