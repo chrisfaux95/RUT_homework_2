@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/pulse/bootstrap.min.css" integrity="sha384-L7+YG8QLqGvxQGffJ6utDKFwmGwtLcCjtwvonVZR/Ba2VzhpMwBz51GaXnUsuYbj" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
 
     <!-- OWN STYLESHEET -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact Me</title>
+    <title>{{ name }}</title>
 </head>
 
 <body>
@@ -23,58 +23,68 @@
                 navbar
                 navbar-expand
                 navbar-dark
+                bg-primary
                 sticky-top">
-        <!-- Links -->
-        <a class="navbar-brand 
-                    mb-1 h1" href="index.html">Chris Faux</a>
-        <ul class="navbar-nav
-                    navbar-right
-                    ml-md-auto">
-            <li class="nav-item mx-1">
-                <a class="nav-link btn btn-dark" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item mx-1">
-                <a class="nav-link btn btn-dark" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item mx-1">
-                <a class="nav-link btn btn-dark active" href="contact.html">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-    <main class="container mx-auto my-5 rounded">
-        <h2>Contact Me!</h2>
-        <hr>
-        <form class="pb-2">
-            <div class="form-group">
-                <label for="inputName1">Name</label>
-                <input type="name" class="form-control" id="inputName1" aria-describedby="nameHelp"
-                    placeholder="Insert Name Here">
-            </div>
-            <div class="form-group">
-                <label for="inputEmail1">Email address</label>
-                <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
-                    placeholder="example@website.com">
-            </div>
-            <div class="form-group">
-                <label for="inputTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-            <div class="">
-                <div class="btn btn-dark btn-block">SEND</div>
-            </div>
-        </form>
-    </main>
-    <footer class="footer
+    <!-- Links -->
+    <a class="navbar-brand 
+                  mb-1 h1" href="index.html">
+        Chris Faux
+    </a>
+    <ul class="navbar-nav
+                   navbar-right
+                   ml-md-auto">
+        <li class="nav-item mx-1">
+            <a class="nav-link btn
+                          btn-dark" href="index.html">
+                About Me
+            </a>
+        </li>
+        <li class="nav-item mx-1">
+            <a class="nav-link btn
+                          btn-dark" href="portfolio.html">
+                Portfolio
+            </a>
+        </li>
+        <li class="nav-item mx-1">
+            <a class="nav-link btn
+                          btn-dark" href="contact.html">
+                Contact Me
+            </a>
+        </li>
+    </ul>
+</nav><main class="container mx-auto my-5 rounded">
+    <h2>Contact Me!</h2>
+    <hr>
+    <form class="pb-2">
+        <div class="form-group">
+            <label for="inputName1">Name</label>
+            <input type="name" class="form-control" id="inputName1" aria-describedby="nameHelp"
+                placeholder="Insert Name Here">
+        </div>
+        <div class="form-group">
+            <label for="inputEmail1">Email address</label>
+            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
+                placeholder="example@website.com">
+        </div>
+        <div class="form-group">
+            <label for="inputTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <div class="">
+            <div class="btn btn-dark btn-block">SEND</div>
+        </div>
+    </form>
+</main><footer class="footer
                    mt-1
                    align-baseline
                    bg-dark
                    text-light
                    text-center">
-        <br>
-        &copy;2020 - Chris Faux.
-    </footer>
+    <br>
+    <p>&copy;2020 - Chris Faux.</p>
+</footer>
     <!-- SCRIPTS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
