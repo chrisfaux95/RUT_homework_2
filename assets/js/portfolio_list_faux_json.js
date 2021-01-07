@@ -13,7 +13,7 @@ const portfolioData = [
             }
         ],
         "image": {
-            "src": "NASA_Now.png",
+            "src": "NASA_now.png",
             "type": "local"
         }
     },
